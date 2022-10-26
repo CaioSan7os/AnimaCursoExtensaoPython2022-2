@@ -1,9 +1,9 @@
-#estudo python a um tempo, irei comentar apenas o que for novo pra mim
+#input() solicita um input do usuario
+# variaveis "nome" e "idade"
+#print() output de dados/ exibe dados armazenados
 
-print("hello world") #output
-#======================
-nome = "Caio Santos" #var str
-idade = "19 anos"
-print(f"meu nome é {nome} e eu tenho {idade} anos de idade.")
-
-print("meu nome é {1}, e eu tenho {0}".format(nome, idade))
+nome = input("digite seu nome: ")
+idade = int (input ("digite sua idade: "))
+print(f"o seu nome é {nome} e você tem {idade} anos de idade. :)")
+print("seja bem vindo {0}, você tem {1} anos, logo ja é maior de idade".format(nome, idade))
+print(f"o dobro da sua idade é {idade*2}")
